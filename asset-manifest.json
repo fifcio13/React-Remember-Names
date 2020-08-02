@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/remember_names/static/css/main.a840aaf3.chunk.css",
+    "main.js": "/remember_names/static/js/main.190cc549.chunk.js",
+    "main.js.map": "/remember_names/static/js/main.190cc549.chunk.js.map",
+    "runtime-main.js": "/remember_names/static/js/runtime-main.5b2b88ab.js",
+    "runtime-main.js.map": "/remember_names/static/js/runtime-main.5b2b88ab.js.map",
+    "static/js/2.f62f7105.chunk.js": "/remember_names/static/js/2.f62f7105.chunk.js",
+    "static/js/2.f62f7105.chunk.js.map": "/remember_names/static/js/2.f62f7105.chunk.js.map",
+    "index.html": "/remember_names/index.html",
+    "precache-manifest.eb56f693cfb5bb01a483081d744e2eed.js": "/remember_names/precache-manifest.eb56f693cfb5bb01a483081d744e2eed.js",
+    "service-worker.js": "/remember_names/service-worker.js",
+    "static/css/main.a840aaf3.chunk.css.map": "/remember_names/static/css/main.a840aaf3.chunk.css.map",
+    "static/js/2.f62f7105.chunk.js.LICENSE.txt": "/remember_names/static/js/2.f62f7105.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/remember_names/static/media/lato-v16-latin-regular.d1d5e30a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b2b88ab.js",
+    "static/js/2.f62f7105.chunk.js",
+    "static/css/main.a840aaf3.chunk.css",
+    "static/js/main.190cc549.chunk.js"
+  ]
+}
