@@ -1,0 +1,191 @@
+/* lato-300 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/lato-v16-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Lato Light'), local('Lato-Light'),
+       url('fonts/lato-v16-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/lato-v16-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/lato-v16-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('fonts/lato-v16-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/lato-v16-latin-300.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/lato-v16-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url('fonts/lato-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/lato-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/lato-v16-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/lato-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/lato-v16-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lato-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('fonts/lato-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/lato-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/lato-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/lato-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/lato-v16-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1b1b1b;
+  color: #6d6d6d;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  transition: .3s all;
+}
+
+a:hover, a:focus, a:active {
+  color: #a7a7a7;
+}
+
+.App-inner {
+  padding: 0 15px;
+}
+
+header {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+header span {
+  display: block;
+}
+
+.type-area {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.type-area form label {
+  display: block;
+  color: #6d6d6d;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.type-area form input[type=text] {
+  background: #333;
+  border: none;
+  box-shadow: 0 0 2px 1px black;
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  transition: .3s all;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #a7a7a7;
+  text-transform: uppercase;
+}
+
+.type-area form input[type=text]:hover, .type-area form input[type=text]:active, .type-area form input[type=text]:focus {
+  background: #616161;
+  color: #dcdcdc;
+  outline: none;
+}
+
+.type-area form button {
+  display: none;
+}
+
+.people-list {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 70px;
+  border-top: 1px solid #cccccc11;
+}
+
+.human {
+  text-transform: uppercase;
+  margin: 5px 0;
+  cursor: context-menu;
+}
+
+.human:nth-child(odd) {
+  color: #424242;
+}
+
+.counter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+aside {
+  width: 350px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: #212121;
+  padding: 10px;
+  max-width: 100%;
+}
+
+aside p {
+  margin: 0 0 10px 0;
+}
+
+aside a {
+  color: #424242;
+}
+
+footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  padding: 5px 20px;
+  font-size: .85em;
+  background: #212121;
+  width: 100%;
+}
+
+footer a {
+  color: #555;
+}
+
+@media screen and (max-width: 1200px) {
+  aside {
+    position: static;
+    margin: 20px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .people-list {
+    padding-bottom: 85px;
+  }
+}
